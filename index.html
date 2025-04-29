@@ -3,26 +3,67 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Responsive Landing Page</title>
+  <title>SmartGadget - Product Landing Page</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header id="navbar">
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
+  <header>
+    <nav class="navbar">
+      <div class="logo">SmartGadget</div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
+    <div class="hero">
+      <h1>Upgrade to Smart Living</h1>
+      <p>Introducing SmartGadget: Your next-gen smart assistant for everyday life.</p>
+      <a href="#pricing" class="btn">Buy Now</a>
+    </div>
   </header>
 
-  <section class="hero">
-    <h1>Welcome to Our Landing Page</h1>
-    <p>Your one-stop solution</p>
+  <section id="features">
+    <h2>Features</h2>
+    <div class="features-grid">
+      <div class="feature">
+        <h3>Voice Control</h3>
+        <p>Control with your voice for hands-free convenience.</p>
+      </div>
+      <div class="feature">
+        <h3>Smart Scheduling</h3>
+        <p>Automate daily routines with intelligent scheduling.</p>
+      </div>
+      <div class="feature">
+        <h3>Energy Efficient</h3>
+        <p>Save energy and reduce bills with built-in monitoring.</p>
+      </div>
+    </div>
   </section>
 
-  <script src="script.js"></script>
+  <section id="pricing">
+    <h2>Pricing</h2>
+    <div class="pricing-card">
+      <h3>SmartGadget</h3>
+      <p class="price">$49.99</p>
+      <ul>
+        1-year warranty</br>
+       Free shipping</br>
+        30-day return policy</br>
+    </br>
+      </ul>
+      <a href="#" class="btn">Order Now</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@smartgadget.com</p>
+    <p>Phone: +1 800 123 4567</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SmartGadget Inc. All rights reserved.</p>
+  </footer>
 </body>
 </html>
